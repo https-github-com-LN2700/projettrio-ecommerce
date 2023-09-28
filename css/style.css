@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 /* font-family: 'Permanent Marker', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
 /* font-family: 'DM Sans', sans-serif; */
 
 html {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 body {
@@ -12,42 +12,24 @@ body {
   background-image: url(../img/dice-658643_1280.png);
   background-position: center;
   background-size: 40%;
-
-}
-
-
-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-}
-
-.logo {
-  height: 20rem;
-  width: auto;
-  float: left;
 }
 
 .navbar {
-  background-color: #DADADA;
+  background-color: #dadada;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  margin: 0
 }
 
 .dropdown-menu {
-  background-color: #DADADA;
-}
-
-div>a>img {
-  height: 20rem;
-  width: auto;
-  margin: 0 0 0 3rem;
-
+  background-color: #dadada;
 }
 
 .btn {
-  
-  background-color: #BB55B6;
+  background-color: #bb55b6;
 }
 
 #carouselExampleCaptions {
@@ -55,33 +37,32 @@ div>a>img {
   margin: 0 auto;
 }
 
-body>button.carousel-control-prev {
+body > button.carousel-control-prev {
   margin: 10rem;
 }
 
-body>button.carousel-control-next {
+body > button.carousel-control-next {
   margin: 10rem;
 }
 
-#carouselExampleCaptions>div>div:nth-child(1)>div {
+#carouselExampleCaptions > div > div:nth-child(1) > div {
   width: 20rem;
   height: 5rem;
   margin: 0 auto;
 }
 
-#carouselExampleCaptions>div>div.carousel-item.active>div {
+#carouselExampleCaptions > div > div.carousel-item.active > div {
   margin-bottom: 5rem;
   margin-left: 12rem;
 }
 
-#carouselExampleCaptions>div>div.carousel-item.active {
-  background-color: #3350D4;
+#carouselExampleCaptions > div > div.carousel-item.active {
+  background-color: #3350d4;
   color: white;
   height: 10rem;
 }
 
-
-#carouselExampleCaptions>div>div.carousel-item.active>img {
+#carouselExampleCaptions > div > div.carousel-item.active > img {
   width: 9rem;
   height: auto;
   margin-left: 6rem;
@@ -93,29 +74,33 @@ body>button.carousel-control-next {
   margin: 0 auto;
   font-size: xx-large;
   margin-top: 1rem;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
 }
 
 .carousel-item {
   margin: 0 auto;
-  font-size:large;
-  font-family: 'Permanent Marker', cursive;
+  font-size: large;
+  font-family: "Permanent Marker", cursive;
   text-align: center;
 }
 #carouselExampleCaptions > div > div.carousel-item.active > p {
-  margin-top:3rem;
+  margin-top: 3rem;
   text-align: left;
   margin-right: 10rem;
-
 }
 
-#carouselExampleCaptions>div>div.carousel-item.active>div>p:nth-child(2)>a {
-  background-color: #BB55B6;
+#carouselExampleCaptions
+  > div
+  > div.carousel-item.active
+  > div
+  > p:nth-child(2)
+  > a {
+  background-color: #bb55b6;
   margin-top: 1rem;
   width: 9rem;
   height: 2.5rem;
   font-size: 1rem;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .categories {
@@ -124,9 +109,9 @@ body>button.carousel-control-next {
 }
 
 .card {
-  background-color: #8135CC;
+  background-color: #8135cc;
   margin: 2rem 2rem 2rem 2rem;
   font-size: x-large;
   text-align: center;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
 }
