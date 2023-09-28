@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-  /* font-family: 'Permanent Marker', cursive; */
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+/* font-family: 'Permanent Marker', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 /* font-family: 'DM Sans', sans-serif; */
 
 body {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  background-image: url(img/limited-time-offer-1438906_640.png/);
-  
+  background-image: url(../img/dice-658643_1280.png);
+  background-position: center;
+  background-size: 40%;
+
 }
 
-header{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .logo {
@@ -23,9 +25,9 @@ justify-content: center;
 }
 
 .navbar {
-    background-color: #DADADA;
-    
-    }
+  background-color: #DADADA;
+
+}
 
 div>a>img {
   height: 20rem;
@@ -36,44 +38,72 @@ div>a>img {
 
 .btn {
   border-color: #BB55B6;
-}
+  background-color: #BB55B6;
+  }
+
+
 
 #carouselExampleCaptions {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
-#carouselExampleCaptions > div > div:nth-child(1) > div {
-  width:20rem;
+body>button.carousel-control-prev {
+  margin: 10rem;
+}
+
+body>button.carousel-control-next {
+  margin: 10rem;
+}
+
+#carouselExampleCaptions>div>div:nth-child(1)>div {
+  width: 20rem;
   height: 5rem;
   margin: 0 auto;
 }
 
-#carouselExampleCaptions > div > div.carousel-item.active > div {
+#carouselExampleCaptions>div>div.carousel-item.active>div {
   margin-bottom: 5rem;
-  margin-left: 20rem;
-}
-
-#carouselExampleCaptions > div > div.carousel-item.active {
-  background-color: #3350D4;
-  color: white;
-}
-
-
-#carouselExampleCaptions > div > div.carousel-item.active > img {
-  width: 15rem;
-  height: auto;
   margin-left: 12rem;
 }
 
-.offre {
- margin: 0 auto;
- font-size: xx-large;
+#carouselExampleCaptions>div>div.carousel-item.active {
+  background-color: #3350D4;
+  color: white;
+  height: 10rem;
 }
 
-#carouselExampleCaptions > div > div.carousel-item.active > div > p:nth-child(2) > a {
-  background-color: #8135CC;
-  margin-top: 2rem;
+
+#carouselExampleCaptions>div>div.carousel-item.active>img {
+  width: 9rem;
+  height: auto;
+  margin-left: 6rem;
+  display: flex;
+  float: left;
+}
+
+
+.carousel-item {
+  margin: 0 auto;
+  font-size:large;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+
+}
+#carouselExampleCaptions > div > div.carousel-item.active > p {
+  margin-top:3rem;
+  text-align: left;
+  margin-right: 10rem;
+
+}
+
+#carouselExampleCaptions>div>div.carousel-item.active>div>p:nth-child(2)>a {
+  background-color: #BB55B6;
+  margin-top: 1rem;
+  width: 9rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .card {
@@ -82,7 +112,23 @@ div>a>img {
 
 }
 
-.container {
+.card-img-top1 {
 
-  background-image: url(img/dice-658643_1280.jpg);
+  height: 256px;
+}
+
+.card-img-top3 {
+
+  height: 256px;
+}
+
+.offre{
+margin: 0 auto;
+  font-size: xx-large;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2{
+
+  font-family: 'Permanent Marker', cursive;
 }
