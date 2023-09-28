@@ -7,8 +7,7 @@
 body {
   width: 90%;
   margin: 0 auto;
-  background-image: url(img/limited-time-offer-1438906_640.png/);
-  
+  background-image: url(../img/dice-658643_1280.jpg)
 }
 
 header{
@@ -75,4 +74,8 @@ div>a>img {
 #carouselExampleCaptions > div > div.carousel-item.active > div > p:nth-child(2) > a {
   background-color: #8135CC;
   margin-top: 2rem;
+}
+
+.categories {
+  flex-direction: row;
 }
