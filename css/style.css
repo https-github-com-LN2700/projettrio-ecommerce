@@ -4,16 +4,25 @@
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 /* font-family: 'DM Sans', sans-serif; */
 
+html {
+  font-family: 'DM Sans', sans-serif;
+}
+
 body {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  background-image: url(../img/dice-658643_1280.jpg)
+  background-image: url(../img/dice-658643_1280.jpg);
+  background-repeat: no-repeat;
+ background-position: center;
+ background-size: 70%;
 }
 
 header{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+width: 100%;
+height: auto;
 }
 
 .logo {
@@ -39,8 +48,16 @@ div>a>img {
 }
 
 #carouselExampleCaptions {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
+}
+
+body > button.carousel-control-prev {
+  margin: 10rem;
+}
+
+body > button.carousel-control-next {
+  margin: 10rem;
 }
 
 #carouselExampleCaptions > div > div:nth-child(1) > div {
@@ -57,11 +74,12 @@ div>a>img {
 #carouselExampleCaptions > div > div.carousel-item.active {
   background-color: #3350D4;
   color: white;
+  height: 10rem;
 }
 
 
 #carouselExampleCaptions > div > div.carousel-item.active > img {
-  width: 15rem;
+  width: 9rem;
   height: auto;
   margin-left: 12rem;
 }
@@ -69,13 +87,36 @@ div>a>img {
 .offre {
  margin: 0 auto;
  font-size: xx-large;
+ margin-top: 1rem;
+ font-family: 'Permanent Marker', cursive;
+}
+
+.moitiéprix {
+  margin: 0 auto;
+ font-size: xx-large;
+ margin-top: 1rem;
+ font-family: 'Permanent Marker', cursive;
 }
 
 #carouselExampleCaptions > div > div.carousel-item.active > div > p:nth-child(2) > a {
   background-color: #8135CC;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  width: 9rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .categories {
   flex-direction: row;
+  justify-content: center;
 }
+
+.card {
+  background-color: #8135CC;
+  margin: 2rem 2rem 2rem 2rem;
+  font-size: x-large;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
