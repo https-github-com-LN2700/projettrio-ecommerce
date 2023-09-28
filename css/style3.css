@@ -37,6 +37,15 @@ body {
   margin-left: 20rem;
 }
 
+.btn2 {
+  background-color: #bb55b6;
+  font-family: 'DM Sans', sans-serif;
+  width: 8rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+
 div>a>img {
   height: 20rem;
   width: auto;
@@ -44,17 +53,22 @@ div>a>img {
 
 }
 
+
 #carouselExampleCaptions {
   width: 70%;
   margin: 0 auto;
 }
 
 body>button.carousel-control-prev {
-  margin: 10rem;
+  margin: 15rem;
+  height: 1rem;
+  width: auto;
 }
 
 body>button.carousel-control-next {
-  margin: 10rem;
+  margin: 15rem;
+  height: 1rem;
+  width: auto;
 }
 
 #carouselExampleCaptions>div>div:nth-child(1)>div {
