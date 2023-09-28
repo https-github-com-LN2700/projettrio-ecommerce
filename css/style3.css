@@ -125,5 +125,20 @@ h2 {
 .card {
 
     background-color: #8135CC;
+    font-family: 'DM Sans', sans-serif;
   
+  }
+  body > div.listcard1.text-center.row.justify-content-evenly.mt-4 > div:nth-child(1) > div > p.card-text.text-white {
+    font-size: 1rem;
+  }
+
+  body > div.listcard1.text-center.row.justify-content-evenly.mt-4 > div:nth-child(1) > div > h5 {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  body > div.listcard1.text-center.row.justify-content-evenly.mt-4 > div:nth-child(1) > div > p:nth-child(3) {
+    color: white;
+    font-size: 1.5rem;
   }
