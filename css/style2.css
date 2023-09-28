@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+  /* font-family: 'Permanent Marker', cursive; */
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+/* font-family: 'DM Sans', sans-serif; */
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(img/limited-time-offer-1438906_640.png/);
+  
+}
+
+header{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.logo {
+  height: 20rem;
+  width: auto;
+  float: left;
+}
+
+.navbar {
+    background-color: #DADADA;
+    
+    }
+
+div>a>img {
+  height: 20rem;
+  width: auto;
+  margin: 0 0 0 3rem;
+
+}
+
+.btn {
+  border-color: #BB55B6;
+}
+
+#carouselExampleCaptions {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#carouselExampleCaptions > div > div:nth-child(1) > div {
+  width:20rem;
+  height: 5rem;
+  margin: 0 auto;
+}
+
+#carouselExampleCaptions > div > div.carousel-item.active > div {
+  margin-bottom: 5rem;
+  margin-left: 20rem;
+}
+
+#carouselExampleCaptions > div > div.carousel-item.active {
+  background-color: #3350D4;
+  color: white;
+}
+
+
+#carouselExampleCaptions > div > div.carousel-item.active > img {
+  width: 15rem;
+  height: auto;
+  margin-left: 12rem;
+}
+
+.offre {
+ margin: 0 auto;
+ font-size: xx-large;
+}
+
+#carouselExampleCaptions > div > div.carousel-item.active > div > p:nth-child(2) > a {
+  background-color: #8135CC;
+  margin-top: 2rem;
+}
+
+.card {
+
+  background-color: #8135CC;
+
+}
+
