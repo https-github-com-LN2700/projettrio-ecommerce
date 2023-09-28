@@ -105,7 +105,8 @@ body>button.carousel-control-next {
 #carouselExampleCaptions > div > div.carousel-item.active > p {
   margin-top:3rem;
   text-align: left;
-  margin-right: 6rem;
+  margin-right: 10rem;
+
 }
 
 #carouselExampleCaptions>div>div.carousel-item.active>div>p:nth-child(2)>a {
