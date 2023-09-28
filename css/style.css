@@ -30,6 +30,11 @@ body {
 
 .btn {
   background-color: #bb55b6;
+  font-family: 'DM Sans', sans-serif;
+  width: 8rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  margin-left: 20rem;
 }
 
 #carouselExampleCaptions {
@@ -73,9 +78,13 @@ body > button.carousel-control-next {
 .offre {
   margin: 0 auto;
   font-size: xx-large;
-  margin-top: 1rem;
   font-family: "Permanent Marker", cursive;
 }
+
+.vingt {
+  font-size: medium;
+  font-family: 'DM Sans', sans-serif;
+  }
 
 .carousel-item {
   margin: 0 auto;
@@ -114,4 +123,13 @@ body > button.carousel-control-next {
   font-size: x-large;
   text-align: center;
   font-family: "Permanent Marker", cursive;
+}
+
+.container {
+  font-family: 'DM Sans', sans-serif;
+  color: black;
+}
+
+.nav-item:hover{
+  background-color: #BB55B6;
 }
