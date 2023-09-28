@@ -14,94 +14,69 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/logo-lesplay.png"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              JEUX
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Jeux de dés</a></li>
-              <li><a class="dropdown-item" href="#">Jeux de cartes</a></li>
-              <li><a class="dropdown-item" href="#">Jeux de plateaux</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              PROMOS
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">promos 1</a></li>
-              <li><a class="dropdown-item" href="#">promos 2</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="offcanvas">PANIER</a>
-            <!-- Attempt at offcanvas, failed for now
-              <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-  Link with href
-</a>
-<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-  Button with data-bs-target
-</button>
-
-<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <div>
-      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-    </div>
-    <div class="dropdown mt-3">
-      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-        Dropdown button
-      </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-             -->
-            
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Rechercher un article" aria-label="Search">
-          <button class="btn" type="submit">Rechercher</button>
-        </form>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              PROFIL
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Enregistrement</a></li>
-              <li><a class="dropdown-item" href="#">Connexion</a></li>
-              <li><a class="dropdown-item" href="#">Mon compte</a></li>
-              <li><a class="dropdown-item" href="#">Mes commandes</a></li>
-              <li><a class="dropdown-item" href="#">Liste de souhaits</a></li>
-              <li><a class="dropdown-item" href="#">Déconnexion</a></li>
-            </ul>
-          </li>
-        </ul>
+  <header>
+    <img class="logo" src="img/logo-lesplay.png">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                JEUX
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Jeux de dés</a></li>
+                <li><a class="dropdown-item" href="#">Jeux de cartes</a></li>
+                <li><a class="dropdown-item" href="#">Jeux de plateaux</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PROMOS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">promos 1</a></li>
+                <li><a class="dropdown-item" href="#">promos 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">PANIER</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Rechercher un article" aria-label="Search">
+            <button class="btn" type="submit">Rechercher</button>
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PROFIL
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Enregistrement</a></li>
+                <li><a class="dropdown-item" href="#">Connexion</a></li>
+                <li><a class="dropdown-item" href="#">Mon compte</a></li>
+                <li><a class="dropdown-item" href="#">Mes commandes</a></li>
+                <li><a class="dropdown-item" href="#">Liste de souhaits</a></li>
+                <li><a class="dropdown-item" href="#">Déconnexion</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
   <div id="carouselExampleCaptions" class="d-lg-block carousel slide mx-auto mt-4">
 
@@ -110,14 +85,15 @@
         <img src="img/twenty-percent-off-1424812_640.png" class="d-block" alt="20%">
         <div class="carousel-caption d-none d-md-block">
           <p class="offre">Offre de bienvenue</p>
-          <p><a class="btn btn-lg btn-primary mb-4" href="#">Enregistrement</a></p>
+          <p><a class="btn btn-lg" href="#">Enregistrement</a></p>
         </div>
       </div>
 
-      <div class="flex carousel-item">
+      <div class="carousel-item">
         <img src="img/twenty-percent-off-1424812_640.png" class="d-block" alt="offre">
         <div class="carousel-caption d-none d-md-block">
-          <p>Du 23 septembre au 7 octobre 2023, pour l'achat d'un jeu, le 2ème est à moitié prix. </p>
+          <p>Du 23 septembre au 7 octobre 2023,</p>
+          <p>pour l'achat d'un jeu, le 2ème est à moitié prix. </p>
         </div>
       </div>
 
@@ -147,7 +123,28 @@
     </button>
   </div>
 
-  <!--carroussel promos-->
+  <div class="categories d-flex">
+  <div class="card" style="width: 18rem;">
+    <img src="img/dice-442544_640.jpg" class="card-img-top" alt="jeuxdedés">
+    <div class="card-body">
+      <p class="card-text">Jeux de dés</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="img/pexels-pavel-danilyuk-8111371.jpg" class="card-img-top" alt="jeuxdecartes">
+    <div class="card-body">
+      <p class="card-text">Jeux de cartes</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="img/pexels-cottonbro-studio-4004429.jpg" class="card-img-top" alt="jeuxdeplateaux">
+    <div class="card-body">
+      <p class="card-text">Jeux de plateaux</p>
+    </div>
+  </div>
+</div>
 
   <!--bloc des 3 catégorie-->
 
