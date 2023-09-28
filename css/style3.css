@@ -117,15 +117,13 @@ body>button.carousel-control-next {
   font-family: 'DM Sans', sans-serif;
 }
 
-.categories {
-  flex-direction: row;
-  justify-content: center;
+h2 {
+    text-align: center;
+    margin-top: 4rem;
 }
 
 .card {
-  background-color: #8135CC;
-  margin: 2rem 2rem 2rem 2rem;
-  font-size: x-large;
-  text-align: center;
-  font-family: 'Permanent Marker', cursive;
-}
+
+    background-color: #8135CC;
+  
+  }
