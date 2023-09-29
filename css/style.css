@@ -3,9 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
 /* font-family: 'DM Sans', sans-serif; */
 
+html {
+  font-family: "DM Sans", sans-serif;
+}
+
 body > header > nav > div {
   height: 9rem;
 }
+
 .warp__placeholder{
   position: absolute;
   color: transparent;
