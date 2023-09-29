@@ -328,3 +328,26 @@ body>div.listcard2.text-center.row.justify-content-evenly.mt-5>div:nth-child(2)>
 
     margin-top: 4rem; 
 }
+
+ul {
+    list-style-type: none;
+  }
+
+  .bi-telephone-fill {
+    display: inline;
+    margin-right: 10rem;
+  }
+
+  .accordion-item {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #BB55B6;
+  }
+
+  .btn6{
+
+    background-color: transparent;
+    border: none;
+  }
+  
+  
+  
