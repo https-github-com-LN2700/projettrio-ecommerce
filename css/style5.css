@@ -242,6 +242,10 @@ body > button.carousel-control-next {
   color: white;
 }
 
+.largeur {
+  display: block;
+}
+
 body > div.card > ul {
     width: 15rem;
 }
@@ -249,9 +253,28 @@ body > div.card > ul {
 .card-text {
     font-family: 'DM Sans', sans-serif;
     font-size: 1rem;
+    text-align: justify;
+    
 }
 
+.card-link {
+  font-family: 'DM Sans', sans-serif;
+  text-decoration: none;
+  background-color: #BB55B6;
+  border-radius: 5px;
+  color: black;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
 
-.card {
-  justify-content: center;
+.card-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+}
+
+.boutons {
+display: flex;
+flex-direction: column;
+width: 20rem;
+text-align: center;
 }
