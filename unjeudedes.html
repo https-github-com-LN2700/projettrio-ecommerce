@@ -17,51 +17,7 @@
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <div class="warp" aria-labelledby="warp-label">
-          <span id="warp-label" class="warp__placeholder">
-            Let's Play !
-          </span>
-
-          <span aria-role="presentation">
-            <span class="warp__0">
-              L
-            </span>
-            <span class="warp__1">
-              e
-            </span>
-            <span class="warp__2">
-              t
-            </span>
-            <span class="warp__3">
-              '
-            </span>
-            <span class="warp__4">
-              s
-            </span>
-            <span class="warp__5">
-
-            </span>
-            <span class="warp__6">
-              P
-            </span>
-            <span class="warp__7">
-              l
-            </span>
-            <span class="warp__8">
-              a
-            </span>
-            <span class="warp__9">
-              y
-            </span>
-            <span class="warp__10">
-
-            </span>
-            <span class="warp__11">
-              !
-            </span>
-          </span>
-        </div>
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img class="logo" src="img/logo-lesplay.png">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -79,7 +35,7 @@
                 JEUX
               </a>
               <ul class="dropdown-menu">
-                <li><a href="jeux-de-des.html" target="_blank" class="dropdown-item">Jeux de dés</a></li>
+                <li><a class="dropdown-item" href="jeux-de-des.html" target="_blank">Jeux de dés</a></li>
                 <li><a class="dropdown-item" href="jeux-de-cartes.html" target="_blank">Jeux de cartes</a></li>
                 <li><a class="dropdown-item" href="jeux-de-plateau.html" target="_blank">Jeux de plateaux</a></li>
               </ul>
@@ -95,15 +51,14 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link">PANIER</a>
+              <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                PANIER
+              </a>
             </li>
           </ul>
 
           <div class="d-flex">
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Rechercher un article" aria-label="Search">
-              <button class="btn2" type="submit">Rechercher</button>
-            </form>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -120,10 +75,39 @@
                 </ul>
               </li>
             </ul>
+            </div>
+            <form class="d-flex flex-lg-row flex-sm-column" role="search">
+              <input class="form-control me-2" type="search" placeholder="Rechercher un article" aria-label="Search">
+              <button class="btn" type="submit">Rechercher</button>
+            </form>
           </div>
         </div>
       </div>
     </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Votre panier</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          <ul>
+            <li>
+              <p>Article 1 | 10€99</p>
+            </li>
+            <li>
+              <p>Article 2 | 10€99</p>
+            </li>
+            <li>
+              <p>Article 3 | 10€99</p>
+            </li>
+          </ul>
+          <p>Total : 32€97</p>
+        </div>
+      </div>
+    </div>
+
   </header>
 
   <div class="wrapper">
@@ -154,14 +138,14 @@
       </div>
     </div>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
-    </button>
+    </button> -->
 
     <div class="d-flex row justify-content-center">
 

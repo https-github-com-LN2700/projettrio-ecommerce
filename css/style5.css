@@ -7,10 +7,6 @@ html {
   font-family: "DM Sans", sans-serif;
 }
 
-body > header > nav > div {
-  height: 9rem;
-}
-
 .container {
   font-family: "DM Sans", sans-serif;
   color: black;
@@ -19,88 +15,6 @@ body > header > nav > div {
 .nav-item:hover {
   background-color: #bb55b6;
 }
-.warp__placeholder {
-  position: absolute;
-  color: transparent;
-  font-size: 0.1px;
-}
-
-.warp {
-  display: block;
-  position: relative;
-  width: 7.5rem;
-  height: 18rem;
-  font: lighter 1.812rem/1 arial;
-  font-family: "Permanent Marker", cursive;
-}
-
-[class*="warp__"] {
-  display: block;
-  position: absolute;
-}
-
-.warp__0 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(7.398rem, 9.464rem) rotate(-1.717617rad);
-}
-
-.warp__1 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(7.327rem, 8.431rem) rotate(-1.553547rad);
-}
-
-.warp__2 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(7.646rem, 7.664rem) rotate(-1.404998rad);
-}
-
-.warp__3 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(7.802rem, 7.232rem) rotate(-1.308821rad);
-}
-
-.warp__4 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(7.752rem, 6.585rem) rotate(-1.144998rad);
-}
-
-.warp__5 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(8.229rem, 5.756rem) rotate(-0.892788rad);
-}
-
-.warp__6 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(8.951rem, 5.003rem) rotate(-0.601318rad);
-}
-
-.warp__7 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(10.057rem, 4.619rem) rotate(-0.40478rad);
-}
-
-.warp__8 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(10.413rem, 4.394rem) rotate(-0.243935rad);
-}
-
-.warp__9 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(11.412rem, 4.258rem) rotate(-0.03967rad);
-}
-
-.warp__10 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(12.355rem, 4.311rem) rotate(0.146908rad);
-}
-
-.warp__11 {
-  transform-origin: 50% 1.5rem;
-  transform: translate(13.364rem, 4.479rem) rotate(0.286293rad);
-}
-html {
-  font-family: "DM Sans", sans-serif;
-}
 
 body {
   width: 100%;
@@ -108,14 +22,6 @@ body {
 
 .navbar {
   background-color: #dadada;
-}
-
-.superposition {
-  position: absolute;
-  font-size: medium;
-  text-align: left;
-
-  font-family: "Permanent Marker", cursive;
 }
 
 .logo {
@@ -131,10 +37,7 @@ body {
 .btn {
   background-color: #bb55b6;
   font-family: "DM Sans", sans-serif;
-  width: 8rem;
-  height: 2rem;
   font-size: 0.8rem;
-  margin-left: 20rem;
 }
 
 .btn2 {
