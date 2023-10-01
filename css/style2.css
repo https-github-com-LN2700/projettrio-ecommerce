@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 /* font-family: 'Permanent Marker', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
 /* font-family: 'DM Sans', sans-serif; */
 
 html {
   font-family: "DM Sans", sans-serif;
 }
 
-body>header>nav>div {
+body > header > nav > div {
   height: 9rem;
 }
 
 .warp__placeholder {
   position: absolute;
   color: transparent;
-  font-size: .1px;
+  font-size: 0.1px;
 }
 
 .warp {
@@ -23,10 +23,10 @@ body>header>nav>div {
   width: 7.5rem;
   height: 18rem;
   font: lighter 1.812rem/1 arial;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
 }
 
-[class*='warp__'] {
+[class*="warp__"] {
   display: block;
   position: absolute;
 }
@@ -97,9 +97,6 @@ html {
 
 body {
   width: 100%;
-  background-image: url(../img/dice-658643_1280.png);
-  background-position: center;
-  background-size: 40%;
 }
 
 .navbar {
@@ -111,13 +108,13 @@ body {
   font-size: medium;
   text-align: left;
 
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
 }
 
 .logo {
   width: 10rem;
   height: 10rem;
-  margin: 0
+  margin: 0;
 }
 
 .dropdown-menu {
@@ -126,59 +123,69 @@ body {
 
 .btn {
   background-color: #bb55b6;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   width: 8rem;
   height: 2rem;
   font-size: 0.8rem;
   margin-left: 20rem;
-
 }
 
 .btn2 {
   background-color: #bb55b6;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   width: 8rem;
   height: 2rem;
   font-size: 0.8rem;
   border-radius: 5px;
 }
 
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url(../img/dice-658643_1280.png);
+}
+@media (max-width: 450px) {
+  .wrap {
+    width: 100%;
+    background-image: url(../img/dice-658643_1280.png);
+  }
+}
 #carouselExampleCaptions {
   width: 70%;
   margin: 0 auto;
 }
 
-body>button.carousel-control-prev {
+body > button.carousel-control-prev {
   margin: 15rem;
   height: 1rem;
   width: auto;
 }
 
-body>button.carousel-control-next {
+body > button.carousel-control-next {
   margin: 15rem;
   height: 1rem;
   width: auto;
 }
 
-#carouselExampleCaptions>div>div:nth-child(1)>div {
+#carouselExampleCaptions > div > div:nth-child(1) > div {
   width: 20rem;
   height: 5rem;
   margin: 0 auto;
 }
 
-#carouselExampleCaptions>div>div.carousel-item.active>div {
+#carouselExampleCaptions > div > div.carousel-item.active > div {
   margin-bottom: 5rem;
   margin-left: 12rem;
 }
 
-#carouselExampleCaptions>div>div.carousel-item.active {
-  background-color: #3350D4;
+#carouselExampleCaptions > div > div.carousel-item.active {
+  background-color: #3350d4;
   color: white;
   height: 10rem;
 }
 
-
-#carouselExampleCaptions>div>div.carousel-item.active>img {
+#carouselExampleCaptions > div > div.carousel-item.active > img {
   width: 9rem;
   height: auto;
   margin-left: 6rem;
@@ -186,41 +193,47 @@ body>button.carousel-control-next {
   float: left;
 }
 
-
 .carousel-item {
   margin: 0 auto;
   font-size: large;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   text-align: center;
-
 }
 
-#carouselExampleCaptions>div>div.carousel-item.active>p {
+#carouselExampleCaptions > div > div.carousel-item.active > p {
   margin-top: 3rem;
   text-align: left;
   margin-right: 10rem;
-
 }
 
-#carouselExampleCaptions>div>div.carousel-item.active>div>p:nth-child(2)>a {
-  background-color: #BB55B6;
+#carouselExampleCaptions
+  > div
+  > div.carousel-item.active
+  > div
+  > p:nth-child(2)
+  > a {
+  background-color: #bb55b6;
   margin-top: 1rem;
   width: 9rem;
   height: 2.5rem;
   font-size: 1rem;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .card {
-
-  background-color: #8135CC;
-  font-family: 'DM Sans', sans-serif;
-
+  width: 18rem;
+  background-color: #8135cc;
+  font-family: "DM Sans", sans-serif;
 }
+.card > img {
+  width: 100%;
+  height: 100%;
+}
+
 
 .btn3 {
   background-color: #bb55b6;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   width: 8rem;
   height: 2rem;
   font-size: 0.8rem;
@@ -230,24 +243,22 @@ body>button.carousel-control-next {
 }
 
 .card-img-top1 {
-
   height: 256px;
 }
 
 .card-img-top3 {
-
   height: 256px;
 }
 
 .offre {
   margin: 0 auto;
   font-size: xx-large;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
 }
 
 .titre {
   text-align: center;
   margin-top: 4rem;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   color: white;
 }
