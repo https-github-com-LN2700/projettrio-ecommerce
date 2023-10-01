@@ -7,6 +7,7 @@ html {
   font-family: "DM Sans", sans-serif;
 }
 
+<<<<<<< HEAD
 body>header>nav>div {
   height: 9rem;
 }
@@ -95,17 +96,17 @@ html {
   font-family: "DM Sans", sans-serif;
 }
 
+=======
+>>>>>>> bba45ff45eca1549e727d0ecff669c1b5e48614f
 body {
   width: 100%;
-  background-image: url(../img/dice-658643_1280.png);
-  background-position: center;
-  background-size: 40%;
 }
 
 .navbar {
   background-color: #dadada;
 }
 
+<<<<<<< HEAD
 .superposition {
   position: absolute;
   font-size: medium;
@@ -114,10 +115,12 @@ body {
   font-family: 'Permanent Marker', cursive;
 }
 
+=======
+>>>>>>> bba45ff45eca1549e727d0ecff669c1b5e48614f
 .logo {
   width: 10rem;
   height: 10rem;
-  margin: 0
+  margin: 0;
 }
 
 .dropdown-menu {
@@ -126,17 +129,30 @@ body {
 
 .btn {
   background-color: #bb55b6;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 0.8rem;
 }
 
 .btn2 {
   background-color: #bb55b6;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   width: 8rem;
   height: 2rem;
   font-size: 0.8rem;
   border-radius: 5px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url(../img/dice-658643_1280.png);
+}
+@media (max-width: 450px) {
+  .wrapper {
+    width: 100%;
+    background-image: url(../img/dice-658643_1280.png);
+  }
 }
 
 #carouselExampleCaptions {
@@ -189,7 +205,11 @@ body>button.carousel-control-next {
 
 .vingt {
   font-size: medium;
+<<<<<<< HEAD
   font-family: 'DM Sans', sans-serif;
+=======
+  font-family: "DM Sans", sans-serif;
+>>>>>>> bba45ff45eca1549e727d0ecff669c1b5e48614f
 }
 
 .carousel-item {
@@ -214,12 +234,8 @@ body>button.carousel-control-next {
   font-family: "DM Sans", sans-serif;
 }
 
-.categories {
-  flex-direction: row;
-  justify-content: center;
-}
-
 .card {
+  width: 18rem;
   background-color: #8135cc;
   margin: 2rem 2rem 2rem 2rem;
   font-size: x-large;
@@ -228,11 +244,12 @@ body>button.carousel-control-next {
 }
 
 .container {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   color: black;
 }
 
 .nav-item:hover {
+<<<<<<< HEAD
   background-color: #BB55B6;
 }
 
@@ -251,3 +268,7 @@ body>button.carousel-control-next {
     height: auto;
   }
 }
+=======
+  background-color: #bb55b6;
+}
+>>>>>>> bba45ff45eca1549e727d0ecff669c1b5e48614f

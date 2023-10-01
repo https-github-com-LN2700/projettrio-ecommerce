@@ -2,13 +2,13 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style3.css">
-    <title>Let'sPlay - Jeux de dés</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style3.css">
+  <title>Let'sPlay - Jeux de dés</title>
 </head>
 
 
@@ -17,51 +17,7 @@
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <div class="warp" aria-labelledby="warp-label">
-          <span id="warp-label" class="warp__placeholder">
-              Let's Play !
-          </span>
-  
-          <span aria-role="presentation">
-              <span class="warp__0">
-                  L
-              </span>
-              <span class="warp__1">
-                  e
-              </span>
-              <span class="warp__2">
-                  t
-              </span>
-              <span class="warp__3">
-                  '
-              </span>
-              <span class="warp__4">
-                  s
-              </span>
-              <span class="warp__5">
-                   
-              </span>
-              <span class="warp__6">
-                  P
-              </span>
-              <span class="warp__7">
-                  l
-              </span>
-              <span class="warp__8">
-                  a
-              </span>
-              <span class="warp__9">
-                  y
-              </span>
-              <span class="warp__10">
-                   
-              </span>
-              <span class="warp__11">
-                  !
-              </span>
-          </span>
-      </div>
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img class="logo" src="img/logo-lesplay.png">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -71,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
+              <a class="nav-link active" aria-current="page" href="index.html">ACCUEIL</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -79,7 +35,7 @@
                 JEUX
               </a>
               <ul class="dropdown-menu">
-                <li><a href="jeux-de-des.html" target="_blank" class="dropdown-item">Jeux de dés</a></li>
+                <li><a class="dropdown-item" href="jeux-de-des.html" target="_blank">Jeux de dés</a></li>
                 <li><a class="dropdown-item" href="jeux-de-cartes.html" target="_blank">Jeux de cartes</a></li>
                 <li><a class="dropdown-item" href="jeux-de-plateau.html" target="_blank">Jeux de plateaux</a></li>
               </ul>
@@ -95,15 +51,14 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link">PANIER</a>
+              <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                PANIER
+              </a>
             </li>
           </ul>
-          
+
           <div class="d-flex">
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Rechercher un article" aria-label="Search">
-              <button class="btn2" type="submit">Rechercher</button>
-            </form>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -121,13 +76,44 @@
               </li>
             </ul>
           </div>
+          <form class="d-flex flex-lg-row flex-sm-column" role="search">
+            <input class="form-control me-2" type="search" placeholder="Rechercher un article" aria-label="Search">
+            <button class="btn" type="submit">Rechercher</button>
+          </form>
         </div>
       </div>
+      </div>
     </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Votre panier</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          <ul>
+            <li>
+              <p>Article 1 | 10€99</p>
+            </li>
+            <li>
+              <p>Article 2 | 10€99</p>
+            </li>
+            <li>
+              <p>Article 3 | 10€99</p>
+            </li>
+          </ul>
+          <p>Total : 32€97</p>
+        </div>
+
+      </div>
+    </div>
+
   </header>
-  
+
+  <div class="wrapper">
     <div id="carouselExampleCaptions" class="d-lg-block carousel slide mx-auto mt-4">
-  
+
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/twenty-percent-off-1424812_640.png" class="d-block" alt="20%">
@@ -137,108 +123,104 @@
             <p><a class="btn btn-lg" href="#">Enregistrement</a></p>
           </div>
         </div>
-  
-          <div class="carousel-item">
-            <img src="img/limited-time-offer-1438906_640.png" class="d-block" alt="moitieprix">
-              <p>Du 23 septembre au 7 octobre 2023, pour l'achat d'un jeu, le 2ème est à moitié prix.</p>
-            </div>
-        
-  
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-          </div>
+
+        <div class="carousel-item">
+          <img src="img/limited-time-offer-1438906_640.png" class="d-block" alt="moitieprix">
+          <p>Du 23 septembre au 7 octobre 2023, pour l'achat d'un jeu, le 2ème est à moitié prix.</p>
+        </div>
+
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
         </div>
       </div>
-  
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
 
-  
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button> -->
+
     <div class="titre text-center mt-5 text-white">
       <h1>Jeux de dés</h1>
     </div>
 
-    <div class="listcard1 text-center row justify-content-evenly mt-4">
-        <div class="card border-4 p-2" style="width: 18rem;">
-          <a href="unjeudedes.html" target="_blank"><img src="img/jeuxdedes/strike.jpeg" class="card-img-top" alt="Image Strike"></a>
-            <div class="card-body">
-                <h5 class="card-title text-white">Strike</h5>
-                <p class="card-text text-white">Jeu d'ambiance | Dès 8 ans | 2
-                    à 5
-                    joueurs  |  15 min</p>
-                    <p>16€99</p>
-                <a href="#" class="btn3 text-dark">Voir Plus</a>
-            </div>
+    <div class="listcard1 text-center d-flex row justify-content-center mt-4">
+      <div class="card border-4 p-2 mb-5 mx-4">
+        <a href="unjeudedes.html" target="_blank"><img src="img/jeuxdedes/strike.jpeg" class="card-img-top"
+            alt="Image Strike"></a>
+        <div class="card-body">
+          <h5 class="card-title text-white">Strike</h5>
+          <p class="card-text text-white">Jeu d'ambiance | Dès 8 ans | 2
+            à 5
+            joueurs | 15 min</p>
+          <p>16€99</p>
+          <a href="#" class="btn3 text-dark">Voir Plus</a>
         </div>
+      </div>
 
 
-        <div class="card border-4 p-2" style="width: 18rem;">
-            <img src="img/jeuxdedes/yahtzee1.jpeg" class="card-img-top" alt="Image Yatzee">
-            <div class="card-body">
-                <h5 class="card-title text-white">Yatzee</h5>
-                <p class="card-text text-white">Jeu de société | Dès 8 ans | 2 à 8 joueurs       
-                   | 30 min</p>
-                    <p>20€26</p>
-                <a href="#" class="btn3 text-dark">Voir Plus</a>
-            </div>
+      <div class="card border-4 p-2 mb-5 mx-4">
+        <img src="img/jeuxdedes/yahtzee1.jpeg" class="card-img-top" alt="Image Yatzee">
+        <div class="card-body">
+          <h5 class="card-title text-white">Yatzee</h5>
+          <p class="card-text text-white">Jeu de société | Dès 8 ans | 2 à 8 joueurs
+            | 30 min</p>
+          <p>20€26</p>
+          <a href="#" class="btn3 text-dark">Voir Plus</a>
         </div>
+      </div>
 
 
-        <div class="card border-4 p-2" style="width: 18rem;">
-            <img src="img/jeuxdedes/dice force1.jpeg" class="card-img-top" alt="Image 7wonders">
-            <div class="card-body">
-                <h5 class="card-title text-white">Dice Force</h5>
-                <p class="card-text text-white">Jeu de société | Dès 10 ans | 2
-                    à 4
-                    joueurs | 30 min à 1 heure</p>
-                    <p>42€95</p>
-                <a href="#" class="btn3 text-dark">Voir Plus</a>
-            </div>
+      <div class="card border-4 p-2 mb-5 mx-4">
+        <img src="img/jeuxdedes/dice force1.jpeg" class="card-img-top" alt="Image 7wonders">
+        <div class="card-body">
+          <h5 class="card-title text-white">Dice Force</h5>
+          <p class="card-text text-white">Jeu de société | Dès 10 ans | 2
+            à 4
+            joueurs | 30 min à 1 heure</p>
+          <p>42€95</p>
+          <a href="#" class="btn3 text-dark">Voir Plus</a>
         </div>
+      </div>
+
+      <br>
+
+      <div class="card border-4 p-2 mb-5 mx-4">
+        <img src="img/jeuxdedes/qwixx1.jpeg" class="card-img-top" alt="Image 7wonders">
+        <div class="card-body">
+          <h5 class="card-title text-white">Qwixx</h5>
+          <p class="card-text text-white">Jeu de société | Dès 8 ans | 2
+            à 5
+            joueurs | 15 min</p>
+          <p>16€99</p>
+          <a href="#" class="btn3 text-dark">Voir Plus</a>
+        </div>
+      </div>
+
+
+      <div class="card border-4 p-2 mb-5 mx-4">
+        <img src="img/jeuxdedes/perudo1.jpeg" class="card-img-top" alt="Image 7wonders">
+        <div class="card-body">
+          <h5 class="card-title text-white">Perudo</h5>
+          <p class="card-text text-white">Jeu de société | Dès 8 ans | 2
+            à 6
+            joueurs | 30 minutes</p>
+          <p>19€40</p>
+          <a href="#" class="btn3 text-dark">Voir Plus</a>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div class="listcard2  text-center row justify-content-evenly mt-5">
-        <div class="card border-4 p-2" style="width: 18rem;">
-            <img src="img/jeuxdedes/qwixx1.jpeg" class="card-img-top" alt="Image 7wonders">
-            <div class="card-body">
-                <h5 class="card-title text-white">Qwixx</h5>
-                <p class="card-text text-white">Jeu de société | Dès 8 ans | 2
-                    à 5
-                    joueurs | 15 min</p>
-                    <p>16€99</p>
-                <a href="#" class="btn3 text-dark">Voir Plus</a>
-            </div>
-        </div>
-
-
-        <div class="card border-4 p-2" style="width: 18rem;">
-            <img src="img/jeuxdedes/perudo1.jpeg" class="card-img-top" alt="Image 7wonders">
-            <div class="card-body">
-                <h5 class="card-title text-white">Perudo</h5>
-                <p class="card-text text-white">Jeu de société | Dès 8 ans | 2
-                    à 6
-                    joueurs | 30 minutes</p>
-                    <p>19€40</p>
-                <a href="#" class="btn3 text-dark">Voir Plus</a>
-            </div>
-        </div>
-    </div>
-
-</main>
-
-</section>
-
-<div class="b-example-divider"></div>
+  <div class="b-example-divider"></div>
   <div class="container">
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -251,11 +233,9 @@
     </footer>
   </div>
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
