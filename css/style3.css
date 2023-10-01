@@ -225,6 +225,12 @@ body > button.carousel-control-next {
   padding: 20px;
   background-image: url(../img/dice-658643_1280.png);
 }
+@media (max-width: 450px) {
+  .wrap {
+    width: 100%;
+    background-image: url(../img/dice-658643_1280.png);
+  }
+}
 
 .titre {
   margin-top: 4rem;
@@ -236,7 +242,7 @@ body > button.carousel-control-next {
   background-color: #8135cc;
   font-family: "DM Sans", sans-serif;
 }
-.card>img{
+.card > img {
   width: 100%;
   height: 100%;
 }
