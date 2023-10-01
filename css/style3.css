@@ -219,14 +219,14 @@ body > button.carousel-control-next {
   font-family: "DM Sans", sans-serif;
 }
 
-.wrap {
+.wrapper {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
   background-image: url(../img/dice-658643_1280.png);
 }
 @media (max-width: 450px) {
-  .wrap {
+  .wrapper {
     width: 100%;
     background-image: url(../img/dice-658643_1280.png);
   }
