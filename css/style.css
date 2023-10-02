@@ -43,6 +43,7 @@ body {
   background-color: #bb55b6;
   font-family: "DM Sans", sans-serif;
   font-size: 0.8rem;
+  color: white;
 }
 
 .btn2 {
@@ -52,6 +53,7 @@ body {
   height: 2rem;
   font-size: 0.8rem;
   border-radius: 5px;
+  color: white;
 }
 
 .wrapper {
@@ -153,6 +155,7 @@ body > div.wrapper > button.carousel-control-prev {
   height: 2rem;
   font-size: 1rem;
   font-family: "DM Sans", sans-serif;
+  color: white;
 }
 
 .card {
@@ -162,6 +165,7 @@ body > div.wrapper > button.carousel-control-prev {
   font-size: x-large;
   text-align: center;
   font-family: "Permanent Marker", cursive;
+  color: white;
 }
 
 .container {
@@ -185,4 +189,3 @@ body > div.wrapper > button.carousel-control-prev {
   .card {
     height: auto;
   }
-
