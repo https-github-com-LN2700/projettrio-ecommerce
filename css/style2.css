@@ -15,6 +15,10 @@ body {
   background-color: #dadada;
 }
 
+.nav-item:hover {
+  background-color: #BB55B6;
+}
+
 .logo {
   width: 10rem;
   height: 10rem;
