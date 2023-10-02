@@ -209,9 +209,14 @@ body>button.carousel-control-next {
   margin-right: 10rem;
 }
 
-#carouselExampleCaptions>div>div.carousel-item.active>div>p:nth-child(2)>a {
+#carouselExampleCaptions
+  > div
+  > div.carousel-item.active
+  > div
+  > p:nth-child(3)
+  > a {
   background-color: #bb55b6;
-  margin-top: 1rem;
+  margin-left: 9rem;
   width: 9rem;
   height: 2.5rem;
   font-size: 1rem;

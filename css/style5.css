@@ -67,15 +67,40 @@ body {
   margin: 0 auto;
 }
 
-body > button.carousel-control-prev {
-  margin: 15rem;
+body > div.wrapper > button.carousel-control-prev {
+  margin-top: 20rem;
+  margin-left: 22rem;
   height: 1rem;
   width: auto;
 }
 
-body > button.carousel-control-next {
-  margin: 15rem;
+#carouselExampleCaptions
+  > div
+  > div.carousel-item.active
+  > div
+  > p:nth-child(3)
+  > a {
+  background-color: #bb55b6;
+  margin-left: 9rem;
+  width: 9rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+}
+body > div.wrapper > button.carousel-control-next {
+  margin-top: 20rem;
+  margin-right: 22rem;
   height: 1rem;
+  width: auto;
+}
+
+body > div > button.carousel-control-next {
+  height: 2rem;
+  width: auto;
+}
+
+body > div > button.carousel-control-prev {
+  height: 2rem;
   width: auto;
 }
 
