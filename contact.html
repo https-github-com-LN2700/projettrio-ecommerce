@@ -99,8 +99,11 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">PANIER</a>
-                        </li>
+                            <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                              aria-controls="offcanvasExample">
+                              PANIER
+                            </a>
+                          </li>
                     </ul>
 
                     <div class="d-flex">
@@ -129,6 +132,31 @@
                 </div>
             </div>
         </nav>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Votre panier</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <ul>
+                  <li>
+                    <p>Article 1 | 10€99</p>
+                  </li>
+                  <li>
+                    <p>Article 2 | 10€99</p>
+                  </li>
+                  <li>
+                    <p>Article 3 | 10€99</p>
+                  </li>
+                </ul>
+                <p>Total : 32€97</p>
+                <button class="btn" type="submit">Commander</button>
+              </div>
+              
+            </div>
+          </div>
     </header>
 
     <main>
