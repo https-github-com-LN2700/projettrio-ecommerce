@@ -176,7 +176,6 @@ body > div.wrapper > button.carousel-control-prev {
 @media (max-width: 900px) {
 
   .categories {
-
     flex-direction: column;
     height: auto;
     align-items: center;
@@ -184,7 +183,6 @@ body > div.wrapper > button.carousel-control-prev {
   }
 
   .card {
-
     height: auto;
   }
 
