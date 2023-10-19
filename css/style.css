@@ -13,9 +13,7 @@ html {
   font-family: "DM Sans", sans-serif;
 }
 
-body {
-  width: 100%;
-}
+
 
 .navbar {
   background-color: #dadada;
@@ -29,11 +27,7 @@ body {
   font-family: 'Permanent Marker', cursive;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  margin: 0;
-}
+
 
 .dropdown-menu {
   background-color: #dadada;
@@ -57,13 +51,14 @@ body {
 }
 
 .wrapper {
-  width: 80%;
   margin: 0 auto;
   padding: 20px;
   background-image: url(../img/dice-658643_1280.png);
 }
 @media (max-width: 450px) {
   .wrapper {
+    margin: 0;
+    padding: 10px;
     width: 100%;
     background-image: url(../img/dice-658643_1280.png);
   }
@@ -76,26 +71,29 @@ body {
 
 body > div.wrapper > button.carousel-control-prev {
   margin-top: 20rem;
-  margin-left: 22rem;
-  height: 1rem;
+  margin-left: 18rem;
+  height: 2rem;
   width: auto;
 }
 
 body > div.wrapper > button.carousel-control-next {
   margin-top: 20rem;
   margin-right: 22rem;
-  height: 1rem;
-  width: auto;
-}
-
-body > div.wrapper > button.carousel-control-next {
   height: 2rem;
   width: auto;
 }
 
-body > div.wrapper > button.carousel-control-prev {
-  height: 2rem;
-  width: auto;
+
+@media (max-width: 450px) {
+  body > div.wrapper > button.carousel-control-prev {
+    margin-top: 10rem;
+    margin-left: 10rem;
+  }
+
+  body > div.wrapper > button.carousel-control-next {
+    margin-top: 10rem;
+    margin-right: 10rem;
+  }
 }
 
 #carouselExampleCaptions>div>div:nth-child(1)>div {
@@ -189,3 +187,4 @@ body > div.wrapper > button.carousel-control-prev {
   .card {
     height: auto;
   }
+}
