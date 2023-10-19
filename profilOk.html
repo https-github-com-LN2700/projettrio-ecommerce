@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Let's Play -Confirmation de profil</title>
 </head>
 <body>
     <h1>Votre enregistement a bien été pris en compte.</h1>
 
     <h2>Récapitulatif de vos informations :</h2>
 
+    <p>Genre: <span id="spanGenre"></span></p>
     <p>Votre nom: <span id="spanLastName"></span></p>
     <p>Votre prénom: <span id="spanFirstName"></span></p>
     <p>Votre numéro de téléphone: <span id="spanNumberPhone"></span></p>
     <p>Votre adresse email: <span id="spanMail"></span></p>
-    <a href="profilOk.html">retour</a>
+    <a href="enregistrement.html">retour</a>
 
+
+
+
+
+
+
+
+
+    
     <script>
-        let params = new URLSearchParams(window.location.search) //constructeur créant un objet (new)
-
+        let params = new URLSearchParams(window.location.search) 
 
         let valueLastName = params.get('lastName')
         let spanLastName = document.querySelector('#spanLastName')
@@ -36,11 +45,17 @@
         let spanMail = document.querySelector('#spanMail')
         spanMail.innerText = valueMail
 
+        let valueGenre = params.get('genre')
+        let spanGenre = document.querySelector('#spanGenre')
+        spanGenre.innerText = valueGenre
+
 
         let lastName = encodeURI(spanLastName)
         let firstName = encodeURI(spanFirstName)
         let numberPhone = encodeURI(spanNumberPhone)
         let mail = encodeURI(spanMail)
+        let genre = encodeURI(spanGenre)
+
     </script>
 </body>
 </html>
